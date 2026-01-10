@@ -1,0 +1,60 @@
+2026-01-10 16:48:45,500 - data_preprocessing - DEBUG - Data loaded properly
+2026-01-10 16:48:45,501 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-10 16:48:45,503 - data_preprocessing - DEBUG - Target column encoded
+2026-01-10 16:48:45,506 - data_preprocessing - DEBUG - Duplicates removed
+2026-01-10 16:48:45,509 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\mnaee/nltk_data'
+    - 'D:\\MLOps_Pipeline\\MLOPs_Pipeline\\.venv\\nltk_data'
+    - 'D:\\MLOps_Pipeline\\MLOPs_Pipeline\\.venv\\share\\nltk_data'
+    - 'D:\\MLOps_Pipeline\\MLOPs_Pipeline\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\mnaee\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-01-10 16:48:45,510 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\mnaee/nltk_data'
+    - 'D:\\MLOps_Pipeline\\MLOPs_Pipeline\\.venv\\nltk_data'
+    - 'D:\\MLOps_Pipeline\\MLOPs_Pipeline\\.venv\\share\\nltk_data'
+    - 'D:\\MLOps_Pipeline\\MLOPs_Pipeline\\.venv\\lib\\nltk_data'
+    - 'C:\\Users\\mnaee\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-01-10 16:50:06,077 - data_preprocessing - DEBUG - Data loaded properly
+2026-01-10 16:50:06,078 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-10 16:50:06,079 - data_preprocessing - DEBUG - Target column encoded
+2026-01-10 16:50:06,082 - data_preprocessing - DEBUG - Duplicates removed
+2026-01-10 16:50:27,907 - data_preprocessing - DEBUG - Text column transformed
+2026-01-10 16:50:27,908 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-10 16:50:27,909 - data_preprocessing - DEBUG - Target column encoded
+2026-01-10 16:50:27,911 - data_preprocessing - DEBUG - Duplicates removed
+2026-01-10 16:50:33,792 - data_preprocessing - DEBUG - Text column transformed
+2026-01-10 16:50:33,812 - data_preprocessing - DEBUG - Processed data saved to ./data\interim

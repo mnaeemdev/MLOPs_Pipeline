@@ -1,0 +1,8 @@
+2026-01-10 17:40:45,682 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-01-10 17:40:45,685 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-01-10 17:40:45,686 - feature_engineering - ERROR - Failed to complete the feature engineering process: name 'max_features' is not defined
+2026-01-10 17:41:46,730 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-01-10 17:41:46,732 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-01-10 17:41:46,868 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-01-10 17:41:46,986 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-01-10 17:41:47,030 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
