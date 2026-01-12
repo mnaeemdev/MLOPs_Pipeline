@@ -90,8 +90,8 @@ stages:
       size: 984055
     - path: src/model_evaluation.py
       hash: md5
-      md5: bbeec817c66687b674f482266a19ab7d
-      size: 4935
+      md5: be54f39f3439fb376885fb1046899ad6
+      size: 5326
     params:
       params.yaml:
         model_training.n_estimators: 25
