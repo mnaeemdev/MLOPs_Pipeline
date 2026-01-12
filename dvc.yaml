@@ -8,10 +8,10 @@ stages:
     outs:
       - data/raw/
   
-  data_preprocessing:
-    cmd: python src/data_preprocessing.py
+  preprocessing:
+    cmd: python src/preprocessing.py
     deps:
-      - src/data_preprocessing.py
+      - src/preprocessing.py
       - data/raw/
     outs:
       - data/interim/
@@ -32,8 +32,8 @@ stages:
       - src/model_training.py
       - data/processed/
     params:
-      - model_building.n_estimators
-      - model_building.random_state
+      - model_training.n_estimators
+      - model_training.random_state
     outs:
       - models/model.pkl
   
@@ -44,7 +44,7 @@ stages:
       - models/model.pkl
       - data/processed/
     params:
-      - model_building.n_estimators
-      - model_building.random_state
+      - model_training.n_estimators
+      - model_training.random_state
     outs:
       - reports/metrics.json
